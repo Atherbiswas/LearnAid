@@ -1,0 +1,13 @@
+.title-word {
+    color: yellow;
+}
+.link-style a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-right: 15px;
+}
+.nav-img {
+    width: 35px;
+    margin-bottom: 9px;
+}
