@@ -1,0 +1,32 @@
+.banner {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+}
+.banner-img {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 0;
+}
+.imgres{
+    width: 100%;
+    height: 100%;
+}
+.overlay {
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    position: absolute;
+    top: 0;
+}
+.content {
+    width: 100%;
+    margin: 80px auto 0;
+    text-align: center;
+    color: #fff;
+}
+.content h1 {
+    font-size: 50px;
+}
