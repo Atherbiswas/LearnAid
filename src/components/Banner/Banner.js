@@ -11,7 +11,7 @@ const Banner = () => {
             <div className='overlay'>
                 <div className='content'>
                     <h1>Learn and Engage</h1>
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, praesentium.</h4> 
+                    <h4>You can test your technology skill with LearnAid quizz's. <br /> The test contains more than 10 quiz about differnet topic.</h4> 
 
                 </div>
 

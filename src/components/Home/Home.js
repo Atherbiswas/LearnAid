@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Banner from '../Banner/Banner';
 import Courses from '../Courses/Courses';
+import Footer from '../Footer/Footer';
 import './Home.css'
 
 const Home = () => {
@@ -23,6 +24,8 @@ const Home = () => {
             }
             </div>
             </section>
+            <br />
+            <Footer></Footer>
         </div>
     );
 };
