@@ -7,7 +7,8 @@ import {faEye} from '@fortawesome/free-solid-svg-icons'
 
 
 const Quiz = ({quiz}) => {
-    const {question, options, correctAnswer} = quiz;
+    console.log(quiz)
+    const {question, options, correctAnswer, id} = quiz;
     const handleClick = (option) =>{
         if(correctAnswer === option){
             notify('YAY! Right Answer');
@@ -30,7 +31,7 @@ const Quiz = ({quiz}) => {
                 options.map(option => <div className='bg-cadetblue border border-1 mb-1 w-75 container rounded-4 text-start p-2 fs-5'
                 key = {option}
                 > 
-                    <input onClick={() => handleClick(option)} type="radio" id="option" value="option"/><label>{option}</label>
+                    <input onClick={() => handleClick(option)} type="radio" id={id} name="name" value={question}/><label for = {id}>{option}</label>
                 </div>)
             }
             </div>
