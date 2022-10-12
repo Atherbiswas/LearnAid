@@ -7,7 +7,6 @@ import './Home.css'
 
 const Home = () => {
     const courses = useLoaderData();
-    console.log(courses.data)
     return (
         <div>
             <Banner></Banner>

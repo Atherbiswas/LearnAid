@@ -1,5 +1,5 @@
 import React from 'react';
-import { CDBFooter, CDBFooterLink, CDBBtn, CDBIcon, CDBBox, CDBContainer } from 'cdbreact';
+import { CDBFooter, CDBBtn, CDBIcon, CDBBox } from 'cdbreact';
 import logo from '../../favicon.png'
 
 const Footer = () => {
@@ -12,7 +12,6 @@ const Footer = () => {
           className="mx-auto py-4 flex-wrap"
           style={{ width: '80%' }}
         >
-            
           <CDBBox display="flex" alignItems="center">
             <a href="/" className="d-flex align-items-center p-0 text-dark">
               <img
