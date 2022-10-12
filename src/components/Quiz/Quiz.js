@@ -2,6 +2,8 @@ import React from 'react';
 import './Quiz.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faEye} from '@fortawesome/free-solid-svg-icons'
 
 
 const Quiz = ({quiz}) => {
@@ -20,6 +22,7 @@ const Quiz = ({quiz}) => {
         <div className='container text-center border border-1 rounded-4 mb-2 shadow-lg'>
             <h2>{question}</h2>
             <div>
+                <p className='text-end'><FontAwesomeIcon icon={faEye}></FontAwesomeIcon></p>
             {
                 options.map(option => <div className='bg-cadetblue border border-1 mb-1 w-75 container rounded-4 text-start p-2 fs-5'
                 key = {option}
