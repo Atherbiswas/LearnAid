@@ -10,7 +10,8 @@ const Courses = ({course}) => {
       navigate(`/courses/${id}`)
     }
     return (
-        <Card style={{ width: '18rem' }}>
+        <div className='col-sm-12 col-md-3'>
+          <Card>
       <Card.Img variant="top bg-success" src={logo} />
       <Card.Body>
         <Card.Title>Course: {name}</Card.Title>
@@ -18,6 +19,7 @@ const Courses = ({course}) => {
        <Button onClick={handleNavigate} variant='primary'>Let's Start Quiz</Button>
       </Card.Body>
     </Card>
+        </div>
 
     );
 };

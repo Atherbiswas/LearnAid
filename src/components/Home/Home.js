@@ -15,7 +15,7 @@ const Home = () => {
             <h2 className='text-center'>Total course: {courses.data.length}</h2>
             </section>
             <section className='container mt-5'>
-            <div className='grid-course'>
+            <div className='row g-5'>
             {
                 courses.data.map(course => <Courses
                     key = {course.id}
